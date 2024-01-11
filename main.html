@@ -1,64 +1,119 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shkim_portfolio</title>
     <!-- 구글 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;700&family=Gugi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossoriGin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;700&family=GuGi&display=swap"
+        rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/CSS/header.css">
     <link rel="stylesheet" href="assets/CSS/body.css">
-    
+
 </head>
 
-<header>
-    <div id="Banner">        
-        <div><img src="assets/img/banner.png" alt="BannerImg" id="BannerImg"></div>
-        <div id="BannerText">        
-            <h2>SEO HEE KIM</h2>
-            <h2>PORTFOLIO</h2>
-            <p>발전하는 신입 개발자, 김서희입니다.</p>
-        </div>
-    </div> <!-- 내 소개 이미지 만들어서 삽입 (600*1000) -->
-    <nav>
-        <ul id="main_menu"> <!--메뉴-->
-            <li>소개</li>
-            <li>이력</li>
-            <li>작업물</li>
-            <li>깃허브</li>
-            <li>연락처</li>
-        </ul>
-    </nav>
-</header>
 <body>
+
+    <header>
+        <div id="Banner">
+            <div><img src="assets/img/banner.png" alt="BannerImg" id="BannerImg"></div>
+            <div id="BannerText">
+                <h2>SEO HEE KIM</h2>
+                <h2>PORTFOLIO</h2>
+                <p>발전하는 신입 개발자, 김서희입니다.</p>
+            </div>
+        </div> <!-- 내 소개 이미지 만들어서 삽입 (600*1000) -->
+        <nav>
+            <ul id="main_menu"> <!--메뉴-->
+                <li>소개</li>
+                <li>이력</li>
+                <li>작업물</li>
+                <li>깃허브</li>
+                <li>연락처</li>
+            </ul>
+        </nav>
+    </header>
+
     <h1>About Me</h1>
     <div id="about">
         <div class="BodyImg">계단그림</div>
-        <div class="BodyText"><p><b>꾸준히 성장하는 개발자가 되고싶습니다</b><br><br>
-            나의 발전을 위해 계속 공부할 수 있다는 것이 긍정적인 부분으로 생각되어<br>
-            더 나아가 개발자로 일하고 싶다는 생각을 하게 되었습니다. <br><br>
-            또한, 제가 배운 기술로 눈에 보이게 구현할 수 있다는 것에 재미를 느꼈습니다. <br><br>
-            항상 배우는 자세로 임하고 새로운 시도를 할수 있는 개발자가 되겠습니다.</p>
+        <div class="BodyText">
+            <p><b>꾸준히 성장하는 개발자가 되고싶습니다</b><br><br>
+                나의 발전을 위해 계속 공부할 수 있다는 것이 긍정적인 부분으로 생각되어<br>
+                더 나아가 개발자로 일하고 싶다는 생각을 하게 되었습니다. <br><br>
+                또한, 제가 배운 기술로 눈에 보이게 구현할 수 있다는 것에 재미를 느꼈습니다. <br><br>
+                항상 배우는 자세로 임하고 새로운 시도를 할수 있는 개발자가 되겠습니다.</p>
         </div>
     </div>
+
+    <h1>Skills</h1>
+    <table id="skills">
+        <tr>
+            <td class="skillsTitle">Language : </td>
+            <td>
+                <div class="skillsList">PHP</div>
+                <div class="skillsList">Javascript</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="skillsTitle">MarkUp : </td>
+            <td>
+                <div class="skillsList">HTML</div>
+                <div class="skillsList">CSS</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="skillsTitle">Database : </td>
+            <td>
+                <div class="skillsList">MySQL</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="skillsTitle">Tool : </td>
+            <td>
+                <div class="skillsList">Git</div>
+                <div class="skillsList">Github</div>
+            </td>
+        </tr>
+    </table>
 
     <h1>Works</h1>
     <div id="works">
         <div id="works2">
             <div class="BodyText">
                 <p><b>api를 활용한 날씨 지도</b><br><br>
-                카카오 api와 Openweathermap api를 활용하여<br>
-                한국의 날씨를 선택하여 확인할 수 있는 웹사이트를구현해 보았습니다.<br><br>
-                그리고, MySQL을 이용하여 한국어로 지역명을 입력해 검색할 수 있도록 하였습니다.<br><br>
-                <a href="works2.html" target="_blank">자세한 내용</a>
+                    카카오 api와 Openweathermap api를 활용하여<br>
+                    한국의 날씨를 선택하여 확인할 수 있는 웹사이트를구현해 보았습니다.<br><br>
+                    그리고, MySQL을 이용하여 한국어로 지역명을 입력해 검색할 수 있도록 하였습니다.<br><br>
+                    <a href="works2.html" target="_blank">자세한 내용</a>
             </div>
             <div class="BodyImg">날씨맵</div>
         </div>
-        
+
+        <div id="works1">
+            <div class="BodyImg">게시판</div>
+            <div class="BodyText">
+                <p><b>게시판</b><br><br>
+                    PHP와 MySQL을 이용하여 게시판을 만들었습니다.<br>
+                    CRUD를 사용하여 게시판 기능을 구축하고,<br><br>
+                    로그인 기능도 생성하였습니다.<br><br>
+                    <a href="works1.html" target="_blank">자세한 내용</a>
+            </div>
+        </div>
+    </div>
+
+    <h1>Contact</h1>
+    <div id="contact">
+        <ol>
+            <li>서울 송파구</li>
+            <li>spell0302@naver.com</li>
+        </ol>
     </div>
 </body>
+
 </html>
