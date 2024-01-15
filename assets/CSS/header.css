@@ -37,20 +37,42 @@ body, html {
     font-size: 20px;
 }
 
-#main_menu {
+nav {
     margin: 10px;
-    background-color: rgb(255, 243, 234);
-    list-style-type: none;
     padding: 10px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
-#main_menu li {
-    font-size: 18px;
-    display: inline;
-    padding: 0 15px;
-    width: 70px;
-    text-align: center;
-    font-family: 'Gugi', sans-serif;
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Gugi", sans-serif;
     color: rgb(32, 32, 36);
     cursor: pointer;
+    margin: 0 1.5em;
+}
+
+#nav_line {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(255, 209, 209);
+    /* background-color: rgb(255, 243, 234); */
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#nav_line2 {
+    height: 10px;
+    width: 0;
+    background-color: #ffffff;
+    /* border: solid 1px rgb(255, 188, 188); */
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

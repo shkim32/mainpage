@@ -7,9 +7,8 @@
     <title>shkim_portfolio</title>
     <!-- 구글 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossoriGin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;700&family=GuGi&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Gugi&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/CSS/header.css">
@@ -17,8 +16,7 @@
 
 </head>
 
-<body>
-
+<body>    
     <header>
         <div id="Banner">
             <div><img src="assets/img/banner.png" alt="BannerImg" id="BannerImg"></div>
@@ -29,13 +27,13 @@
             </div>
         </div> <!-- 내 소개 이미지 만들어서 삽입 (600*1000) -->
         <nav>
-            <ul id="main_menu"> <!--메뉴-->
-                <li>소개</li>
-                <li>이력</li>
-                <li>작업물</li>
-                <li>깃허브</li>
-                <li>연락처</li>
-            </ul>
+            <a>소개</a>
+            <a>기술</a>
+            <a>작업물</a>
+            <a>깃허브</a>
+            <a>연락처</a>
+            <div id="nav_line"></div>
+            <div id="nav_line2"></div>
         </nav>
     </header>
 
@@ -114,6 +112,8 @@
             <li>spell0302@naver.com</li>
         </ol>
     </div>
+
+    <script src="assets/JS/body.js"></script>
 </body>
 
 </html>
