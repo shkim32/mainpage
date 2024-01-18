@@ -38,12 +38,21 @@ body, html {
 }
 
 nav {
-    margin: 10px;
     padding: 10px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+nav.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
 }
 
 nav a {
