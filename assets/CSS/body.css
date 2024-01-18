@@ -36,6 +36,9 @@ body h1{
     padding: 3px;
 }
 
+.BodyText {
+    margin: 0 10px;
+}
 .BodyText b {
     font-size: 30px;
     font-family: 'Gothic A1', sans-serif;
@@ -48,8 +51,10 @@ body h1{
     color: rgb(108, 108, 108);
     line-height: 30px;
 }
-.BodyImg { /*나중에 지울거*/
-    background-color: rgb(176, 149, 202);
+.BodyImg img { 
+    max-height: 400px;
+    width: 100%;
+    padding: 0;
 }
 
 #contact {
