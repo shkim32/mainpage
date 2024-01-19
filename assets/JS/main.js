@@ -23,7 +23,6 @@ function resetNavLine() {
 }
 
 // 네비게이션바 상단고정
-
 document.addEventListener("DOMContentLoaded", function() {
     let nav = document.getElementById("nav");
     let banner = document.getElementById("Banner");
