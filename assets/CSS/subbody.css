@@ -6,7 +6,64 @@ body h1{
     font-family: sans-serif;
 }
 
-div {
+body h2{
     text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+div {
     margin-top: 50px;
 }
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+#about_skill {
+    max-width: 900px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+#about_skill a {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+b {
+    font-family: 'Gothic A1', sans-serif;
+    color: black;
+}
+p, li {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bold;
+    color: rgb(108, 108, 108);
+    line-height: 30px;
+}
+
+article a {
+    font-size: 18px;
+    font-family: 'Gothic A1', sans-serif;
+    display: inline;
+    color: whitesmoke;
+    background-color: rgb(132, 132, 132);
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration-line: none;
+}
+
+article a:hover {
+    font-size: 19px;
+    font-family: 'Gothic A1', sans-serif;
+    display: inline;
+    color: whitesmoke;
+    background-color: rgb(132, 132, 132);
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration-line: underline;
+    }
