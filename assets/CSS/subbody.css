@@ -46,7 +46,7 @@ p, li {
     line-height: 30px;
 }
 
-article a {
+article a , .skillsList {
     font-size: 18px;
     font-family: 'Gothic A1', sans-serif;
     display: inline;
@@ -59,11 +59,17 @@ article a {
 
 article a:hover {
     font-size: 19px;
-    font-family: 'Gothic A1', sans-serif;
-    display: inline;
-    color: whitesmoke;
-    background-color: rgb(132, 132, 132);
-    border-radius: 5px;
-    padding: 5px;
     text-decoration-line: underline;
     }
+
+#skills {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.skillsTitle {
+    width: 100px;
+    text-align: right;
+    line-height: 50px;
+}

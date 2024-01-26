@@ -39,3 +39,20 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+// 네이게이션바 스크롤 이동
+let moveBt = document.querySelectorAll(".moveBt");
+let moveLo = document.querySelectorAll(".moveLo");
+let skillsTop = moveLo[0].offsetTop;
+let worksTop = moveLo[1].offsetTop;
+let contactTop = moveLo[2].offsetTop;
+
+moveBt[0].onclick = function(){
+    window.scroll({top:skillsTop, behavior:'smooth'})
+}
+moveBt[1].onclick = function(){
+    window.scroll({top:worksTop, behavior:'smooth'})
+}
+moveBt[2].onclick = function(){
+    window.scroll({top:contactTop, behavior:'smooth'})
+}

@@ -64,3 +64,20 @@ body h1{
     line-height: 40px;
     margin-top: 20px;
 }
+
+.move_page {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Gothic A1', sans-serif;
+    display: inline;
+    color: whitesmoke;
+    background-color: rgb(132, 132, 132);
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration-line: none;
+}
+
+.move_page:hover {
+    font-size: 19px;
+    text-decoration-line: underline;
+    }
